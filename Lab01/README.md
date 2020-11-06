@@ -10,4 +10,4 @@
 6. Delete all values from the table
 7. Delete the entire table
 
-><b>SQL File</b> 👉🏻  [MySQLCode.sql](Lab01/mySQLCode.sql)
+><b>SQL File</b> 👉🏻  [MySQLCode.sql](mySQLCode.sql)
