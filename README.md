@@ -16,8 +16,6 @@
 
 ><b>Lab01 folder📁</b> 👉🏻  [Lab01](Lab01)
 
-<br>
-
 ><b>SQL File🗄</b> 👉🏻  [MySQLCode.sql](./Lab01/mySQLCode.sql)
 
 <br>
