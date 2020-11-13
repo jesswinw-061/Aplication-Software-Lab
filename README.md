@@ -34,4 +34,4 @@
 
 ><b>Lab02 folder📁</b> 👉🏻  [Lab02](Lab02)
 
-><b>SQL File🗄</b> 👉🏻  [SQLFILE.sql](./Lab02/13NOV2020-CHN18CS061.sql)
+><b>SQL File🗄</b> 👉🏻  [SQLFILE.sql](./Lab02/main.sql)
