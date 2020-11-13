@@ -12,8 +12,12 @@
 6. Delete all values from the table
 7. Delete the entire table
 
-><b>SQL File</b> 👉🏻  [MySQLCode.sql](./Lab01/mySQLCode.sql)
+<br>
 
+><b>Lab01 folder📁</b> 👉🏻  [Lab01](Lab01)
+><b>SQL File🗄</b> 👉🏻  [MySQLCode.sql](./Lab01/mySQLCode.sql)
+
+<br>
 
 # Lab 2️⃣
 <b> Date</b>: 13/11/2020
@@ -25,4 +29,6 @@
 4.Change the salary of employee code is e1.
 5. Delete a tuple from the table employee
 
-><b>SQL File</b> 👉🏻  [SQLFILE.sql](./Lab02/13NOV2020-CHN18CS061.sql)
+
+><b>Lab02 folder📁</b> 👉🏻  [Lab02](Lab02)
+><b>SQL File🗄</b> 👉🏻  [SQLFILE.sql](./Lab02/13NOV2020-CHN18CS061.sql)
