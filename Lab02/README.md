@@ -50,4 +50,4 @@ e2	Ash	Asst Manager	1995-08-01	24500
 code	name	designation	dob	salary
 e1	Gon Feress	Manager	1992-09-05	30000
 ```
-><b>SQL File</b> 👉🏻  [SQLFILE.sql](13NOV2020-CHN18CS061.sql)
+><b>SQL File</b> 👉🏻  [SQLFILE.sql](main.sql)
