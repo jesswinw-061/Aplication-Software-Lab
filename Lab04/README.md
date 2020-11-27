@@ -2,6 +2,7 @@
 
 <b> Date</b>: 27/11/2020
 
+Code
 ```sql
 #1
 
@@ -35,6 +36,7 @@ SELECT * FROM Instructor;
 
 <br>
 
+Output
 ```bash
 code	title	dept_name	dept_id	salary
 420	Assistant Proffessor	Computer Science	100	20000
