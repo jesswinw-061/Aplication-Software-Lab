@@ -57,3 +57,30 @@
 > <b>Lab03 folder📁</b> 👉🏻 [Lab03](Lab03)
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab03/main.sql)
+
+<br>
+
+# Lab 4️⃣
+
+<b> Date</b>: 27/11/2020
+
+### Questions:
+
+Create and insert values for the following tables department and instructor(with constarints)
+1.	Department table
+Code(primary key)
+Title 
+Dept_name(unique)
+Dept_id
+Salary(check salary>2000)
+
+2.	Instructor table
+Name(not null)
+Code
+Id(default)
+
+<br>
+
+> <b>Lab04 folder📁</b> 👉🏻 [Lab04](Lab04)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab04/main.sql)
