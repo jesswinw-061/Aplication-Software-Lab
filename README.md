@@ -84,3 +84,22 @@ Id(default)
 > <b>Lab04 folder📁</b> 👉🏻 [Lab04](Lab04)
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab04/main.sql)
+
+# Lab 5️⃣
+
+<b> Date</b>: 04/12/2020
+
+### Questions:
+
+Expt5:Practice of SQL TCL commands like Rollback, Commit, Savepoint
+Questions:
+1.	Create a table class. Fields are name and id
+2.	Insert values into the table
+3.	Display the table
+4.	Apply commit, save point and rollback commands
+
+<br>
+
+> <b>Lab05 folder📁</b> 👉🏻 [Lab05](Lab05)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab05/main.sql)
