@@ -30,5 +30,7 @@ VALUES ('L0G1','Logitech G503',5,4999.99,0,7999);
 
 SELECT * FROM itemView;
 
+# Yes the view gets updated when an item is inserted
+
 #f
 DROP VIEW itemView;
