@@ -85,6 +85,8 @@ Id(default)
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab04/main.sql)
 
+<br>
+
 # Lab 5️⃣
 
 <b> Date</b>: 04/12/2020
@@ -103,3 +105,26 @@ Questions:
 > <b>Lab05 folder📁</b> 👉🏻 [Lab05](Lab05)
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab05/main.sql)
+
+<br>
+
+# Lab 6️⃣
+
+<b> Date</b>: 11/12/2020
+
+### Questions:
+
+Expt6:Creation of Views and Assertions
+a. Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
+b. Inset values into the table
+c. Display the table
+d. Create a view with item_name and quantity for the above table
+e. Write a query to check whether any changes made to present table is reflected in view.
+f. Write a query to delete a vie
+
+<br>
+
+> <b>Lab06 folder📁</b> 👉🏻 [Lab06](Lab06)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab06/main.sql)
+
