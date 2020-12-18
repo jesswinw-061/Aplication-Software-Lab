@@ -148,7 +148,7 @@ Expt7:Implementation of Build in functions in RDBMS
 
 <br>
 
-> <b>Lab06 folder📁</b> 👉🏻 [Lab07](Lab06)
+> <b>Lab06 folder📁</b> 👉🏻 [Lab07](Lab07)
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab07/main.sql)
 
