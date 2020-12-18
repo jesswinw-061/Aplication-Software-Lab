@@ -129,3 +129,28 @@ Expt6:Creation of Views and Assertions
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab06/main.sql)
 
+<br>
+
+# Lab 7️⃣
+
+<b> Date</b>: 18/12/2020
+
+### Questions:
+
+Expt7:Implementation of Build in functions in RDBMS
+
+a.	Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
+b.	Insert values into the table
+c.	Display the table
+d.	Write an SQL query to display the reminder, if the amount of an each item in store is divided by 9.
+e.	Write SQL query to display the amount in store and its square
+f.	Write SQL query to divide the amount in stock of each item by 7 in store table and display the result round to the nearest integer.
+
+<br>
+
+> <b>Lab06 folder📁</b> 👉🏻 [Lab07](Lab06)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab07/main.sql)
+
+
+
