@@ -1,6 +1,16 @@
 # Lab 2️⃣
 <b> Date</b>: 13/11/2020
 
+### Questions:
+
+1. Create a table Employee with following specifications. Code character (4), name character (10), designation character(30), dob date, salary numeric.
+2. Insert 2 tuples into the table
+3. Select all details from the table.
+   4.Change the salary of employee code is e1.
+4. Delete a tuple from the table employee
+
+<br>
+
 ```sql
 #1
 CREATE TABLE EMPLOYEE
