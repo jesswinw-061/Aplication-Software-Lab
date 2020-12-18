@@ -36,7 +36,4 @@ DROP TABLE students;
 ```
 <br>
 
-```bash
-```
-
-><b>SQL File</b> 👉🏻  [MySQLCode.sql](mySQLCode.sql)
+><b>SQL File</b> 👉🏻  [MySQLCode.sql](main.sql)
