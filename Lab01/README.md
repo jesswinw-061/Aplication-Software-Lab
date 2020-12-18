@@ -12,6 +12,7 @@
 
 <br>
 
+code
 ```sql
 # 1
 CREATE TABLE STUDENT(sno INT, name varchar(25), dept varchar(25), mark varchar(25));
@@ -36,4 +37,4 @@ DROP TABLE students;
 ```
 <br>
 
-><b>SQL File</b> 👉🏻  [MySQLCode.sql](main.sql)
+><b>SQL File</b> 👉🏻  [main.sql](main.sql)
