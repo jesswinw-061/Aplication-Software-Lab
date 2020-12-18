@@ -2,6 +2,17 @@
 
 <b> Date</b>: 04/12/2020
 
+### Questions:
+
+Expt5:Practice of SQL TCL commands like Rollback, Commit, Savepoint
+Questions:
+1.	Create a table class. Fields are name and id
+2.	Insert values into the table
+3.	Display the table
+4.	Apply commit, save point and rollback commands
+
+<br>
+
 Code
 ```sql
 #1
