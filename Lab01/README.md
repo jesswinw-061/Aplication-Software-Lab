@@ -10,4 +10,33 @@
 6. Delete all values from the table
 7. Delete the entire table
 
+<br>
+
+```sql
+# 1
+CREATE TABLE STUDENT(sno INT, name varchar(25), dept varchar(25), mark varchar(25));
+
+# 2
+ALTER TABLE STUDENT ADD AGE INT;
+
+# 3
+ALTER TABLE student MODIFY COLUMN dept varchar(50);
+
+# 4
+ALTER TABLE student DROP COLUMN mark;
+
+# 5
+ALTER TABLE student RENAME TO students;
+
+# 6
+DELETE FROM students;
+
+# 7
+DROP TABLE students;
+```
+<br>
+
+```bash
+```
+
 ><b>SQL File</b> 👉🏻  [MySQLCode.sql](mySQLCode.sql)
