@@ -2,6 +2,14 @@
 
 <b> Date</b>: 20/11/2020
 
+### Questions:
+
+1. Create table employdetails with empid references to the empid in employee table
+2. Display the details of employee table where empid in employedetails table
+3. Display the details of employee table where empid notin employedetails table
+
+<br>
+
 ```sql
 #1
 CREATE TABLE employee(
