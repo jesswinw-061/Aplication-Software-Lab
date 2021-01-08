@@ -176,5 +176,26 @@ Expt8:Implementation of various aggregate functions in SQL
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab08/main.sql)
 
+<br>
 
+# Lab 9️⃣
+
+<b> Date</b>: 8/01/2021
+
+### Questions:
+
+Expt9:Order by and Group by clause
+
+1. Create table employee with fields Code , name , dob , designation , salary  .
+2. Display code, name, and designation in descending order of the name.
+3. Create table deposit with fields baccno , branch_name , amount .
+4. Give branch name and details of deposit table.
+
+<br>
+
+> <b>Lab09 folder📁</b> 👉🏻 [Lab09](Lab09)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab09/main.sql)
+
+<br>
 
