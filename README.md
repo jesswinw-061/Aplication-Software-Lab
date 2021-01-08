@@ -152,5 +152,29 @@ Expt7:Implementation of Build in functions in RDBMS
 
 > <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab07/main.sql)
 
+<br>
+
+# Lab 8️⃣
+
+<b> Date</b>: 8/01/2021
+
+### Questions:
+
+Expt8::Implementation of various aggregate functions in SQL
+
+1. Create a table Employee with following specifications. Code, name, DOB, designation, salary
+2. Insert values into the table
+3. Display sum of salaries from the table employee where designation is clerk.
+4. Describe the maximum salary value from the table employee.
+5. Display average salary of employees
+6. Describe the minimum salary value from the table
+7. Display the total number of employees.
+
+<br>
+
+> <b>Lab08 folder📁</b> 👉🏻 [Lab08](Lab08)
+
+> <b>SQL File🗄</b> 👉🏻 [SQLFILE.sql](./Lab08/main.sql)
+
 
 
