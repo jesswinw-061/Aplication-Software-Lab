@@ -1,76 +1,73 @@
-# Lab 7️⃣
+# Lab 9️⃣
 
-<b> Date</b>: 18/12/2020
+<b> Date</b>: 8/01/2021
 
 ### Questions:
 
-Expt7:Implementation of Build in functions in RDBMS
+Expt9:Order by and Group by clause
 
-1.	Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
-2.	Insert values into the table
-3.	Display the table
-4.	Write an SQL query to display the reminder, if the amount of an each item in store is divided by 9.
-5.	Write SQL query to display the amount in store and its square
-6.	Write SQL query to divide the amount in stock of each item by 7 in store table and display the result round to the nearest integer.
+1. Create table employee with fields Code , name , dob , designation , salary  .
+2. Display code, name, and designation in descending order of the name.
+3. Create table deposit with fields baccno , branch_name , amount .
+4. Give branch name and details of deposit table.
 
 <br>
 
 Code
 ```sql
-#A
-CREATE TABLE store(
-    order_no int primary key AUTO_INCREMENT,
-    code varchar(10) not null,
-    item varchar(30) not null,
-    quantity int default 0,
-    price float,
-    discount int default 0,
-    mrp float not null
+#1
+CREATE TABLE Employee(
+    code CHAR(4) PRIMARY KEY,
+    name VARCHAR(60),
+    dob DATE,
+    designation VARCHAR(80),
+    salary FLOAT
 );
 
-#B
-INSERT INTO store(code,item,quantity,price,discount,mrp)
-VALUES 
-("a123", "Macbook Pro 13", 14, 100999.99, 2000, 120000),
-("a420", "iPhone 12", 12, 90000, 1000, 119900),
-("a123", "Airpods Pro", 10, 30000, 0, 59900);
+INSERT INTO Employee(code, name, dob, designation, salary)
+VALUES
+('ar69','Aravind R','2000-02-02','CTO',190000.78),
+('ku12','Kiran U','2000-01-12','CEO',185000.78),
+('sv13','V Sam','1998-08-02','Clerk',59000.78),
+('ask1','A Siraj','1969-04-20','Auditor',59000.18);
 
-#C
-SELECT * FROM store; 
+#2
+SELECT * FROM Employee ORDER BY name DESC;
 
-#D
-SELECT MOD(price,9) FROM store;
+#3
+CREATE TABLE Deposit(
+    baccno BIGINT,
+    branch_name VARCHAR(60),
+    amount FLOAT
+);
 
-#E
-SELECT price,POWER(price,2) FROM store;
+INSERT INTO Deposit(baccno, branch_name, amount)
+VALUES
+(1990001,'palakkad',290000.25),
+(1990002,'palakkad',291233.22),
+(1990003,'karunagapally',123570.1),
+(1990004,'palakkad',2239083.78),
+(1990005,'alapuzha',100090.90);
 
-#F
-SELECT ROUND(mrp DIV 7) FROM store;
+#4
+SELECT branch_name,COUNT(baccno),SUM(amount) FROM Deposit GROUP BY branch_name;
+
 ```
 
 <br>
 
 Output
 ```bash
-order_no	code	item	          quantity	price	  discount	mrp
-1	        a123	Macbook Pro 13	14	      101000	2000	    120000
-2	        a420	iPhone 12	      12	      90000	  1000	    119900
-3	        a123	Airpods Pro	    10	      30000	  0	        59900
+code	name	    dob	        designation	salary
+sv13	V Sam	    1998-08-02	Clerk	    59000.8
+ku12	Kiran U	    2000-01-12	CEO	        185001
+ar69	Aravind R	2000-02-02	CTO	        190001
+ask1	A Siraj	    1969-04-20	Auditor	    59000.2
 
-MOD(price,9)
-1.9921875
-0
-3
-
-price	  POWER(price,2)
-101000	10200998421.875061
-90000	  8100000000
-30000 	900000000
-
-ROUND(mrp DIV 7)
-17142
-17128
-8557
+branch_name	    COUNT(baccno)	SUM(amount)
+palakkad	    3	            2820317.21875
+karunagapally	1	            123570.1015625
+alapuzha	    1	            100090.8984375
 ```
 
 > <b>SQL File</b> 👉🏻 [SQLFILE.sql](main.sql)
