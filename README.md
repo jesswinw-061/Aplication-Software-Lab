@@ -160,7 +160,7 @@ Expt7:Implementation of Build in functions in RDBMS
 
 ### Questions:
 
-Expt8::Implementation of various aggregate functions in SQL
+Expt8:Implementation of various aggregate functions in SQL
 
 1. Create a table Employee with following specifications. Code, name, DOB, designation, salary
 2. Insert values into the table
